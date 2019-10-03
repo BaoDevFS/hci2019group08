@@ -1,0 +1,24 @@
+@media (min-width: 360px) and (max-width: 1024px) {
+    .col {
+        flex-grow: 0 !important;
+        flex-basis: 0;
+        padding-left: 35px;
+    }
+}
+
+.thumb img {
+    border-radius: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+@media (min-width: 1200px) {
+    .myteam {
+        max-width: 1282px !important;
+    }
+}
+
+.content .team__social__net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
