@@ -46,6 +46,10 @@ textarea {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
+a:hover {
+    color: #da1426 !important;
+}
+
 body {
     color: #141412;
     line-height: 1.5;
@@ -1030,9 +1034,6 @@ a {
     font-style: normal;
 }
 
-.text--underline {
-    font-style: underline;
-}
 
 /* Font specialized */
 .body--font {
@@ -6574,7 +6575,7 @@ h3.widget-title-modal {
 
 .gallery__menu button {
     background: #fff none repeat scroll 0 0;
-    color: color: #333;
+    color: #333;
     border: medium none;
     display: inline-block;
     font-size: 12px;
@@ -8050,7 +8051,7 @@ a.checkout__title {
 }
 
 .wedget__categories.poroduct--cat ul li a span {
-    color: # #333;
+    color: #333;
     float: right;
 }
 
