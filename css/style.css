@@ -640,6 +640,7 @@ Parallax
     -moz-animation-timing-function: linear;
 }
 
+<<<<<<< HEAD
 @-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
@@ -673,6 +674,41 @@ Parallax
         transform: scale(1);
     }
 }
+=======
+/*@-webkit-keyframes pulse {  */
+/*    0 {*/
+/*        -webkit-transform: scale(1);*/
+/*        transform: scale(1);*/
+/*    }*/
+
+/*    50% {*/
+/*        -webkit-transform: scale(1.2);*/
+/*        transform: scale(1.2);*/
+/*    }*/
+
+/*    100% {*/
+/*        -webkit-transform: scale(1);*/
+/*        transform: scale(1);*/
+/*    }*/
+/*}*/
+
+/*@-moz-keyframes pulse {    */
+/*    0 {*/
+/*        -moz-transform: scale(1);*/
+/*        transform: scale(1);*/
+/*    }*/
+
+/*    50% {*/
+/*        -moz-transform: scale(1.2);*/
+/*        transform: scale(1.2);*/
+/*    }*/
+
+/*    100% {*/
+/*        -moz-transform: scale(1);*/
+/*        transform: scale(1);*/
+/*    }*/
+/*}*/
+>>>>>>> ba7f8391f1bc844611debe8ffce6a2cabf721d01
 
 
 #text {
