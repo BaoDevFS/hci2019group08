@@ -737,7 +737,8 @@ a {
 .text--normal {
   font-style: normal; }
 .text--underline {
-  font-style: underline; }
+  font-style: underline;
+}
 
 /* Font specialized */
 .body--font {
@@ -1813,7 +1814,9 @@ Header Styles
 	  text-transform: uppercase;
 	  transition: all 0.4s ease 0s;
 	}
-		.mainmenu__nav .meninmenu li a:hover{color: #ce7852;}
+		.mainmenu__nav .meninmenu li a:hover{
+          color: #da1426 !important;
+        }
 		.is-sticky .mainmenu__nav .meninmenu li a {
 		  color: #fff;
 		}
