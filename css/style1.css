@@ -417,7 +417,6 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     font-size: 14px;
     line-height: 24px;
     -webkit-font-smoothing: antialiased;

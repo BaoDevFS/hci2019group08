@@ -56,6 +56,7 @@ thead, tr, td {
 }
 
 .group-tabs {
+    overflow: hidden;
     width: 90%;
     margin: auto;
 }
