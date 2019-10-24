@@ -24,14 +24,26 @@
     <link rel="stylesheet" href="../css/style1.css">
     <link rel="stylesheet" href="../css/mycss.css">
 
-    <!-- Cusom css -->
-    <link rel="stylesheet" href="../css/custom.css">
-
     <!-- Modernizer js -->
     <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
     <link rel="stylesheet" href="../lib/fontawesome-free-5.11.2-web/css/all.css">
     <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
+<style>
+    .caption {
+        display: flex;
+        justify-content: center;
+    }
+
+    #products {
+        background: #f9f9f9;
+    }
+
+    .group-tabs a {
+        color: black;
+    }
+</style>
 <body>
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
@@ -60,7 +72,7 @@
                             </li>
                             <li class="drop"><a href="about.html">About</a>
                             </li>
-                            <li class="drop"><a href="project.html">Project</a>
+                            <li class="drop"><a href="project.html" style="color: #e02b27">Project</a>
                             </li>
                             <li class="drop"><a href="groupdiary.html">Group Diary</a>
                             </li>
@@ -434,7 +446,7 @@
                                                     </tr>
                                                     <tr class="odd">
                                                         <td>2</td>
-                                                        <td>Search</td>
+                                                        <td>Forgot</td>
                                                         <td>Tô Huy Sơn</td>
                                                         <td>Nguyễn Như Bảo<br>
                                                         </td>
@@ -445,7 +457,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>Manager Book</td>
+                                                        <td>Index</td>
                                                         <td>Nguyễn Như Bảo</td>
                                                         <td>Nguyễn Thành Lợi<br>
                                                         </td>
@@ -483,24 +495,63 @@
                                         </section>
                                     </div>
                                 </div>
-
                                 <div id="designweek3" class="container tab-pane fade">
                                     <div class="bound">
-                                        <h3>Design</h3>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                            laboris nisi
-                                            ut aliquip ex ea commodo consequat.</p>
+                                        <h3 class="text-center">Design</h3>
+                                        <strong>- Thiết kế trên giấy</strong>
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/forgotp.jpg" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success">Download</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/signin.jpg" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success ">Download</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/signup.jpg" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success">Download</button>
+                                            </div>
+                                        </div>
+
+                                        <strong>- Thiết kế trên figma</strong>
+
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/forgot.PNG" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success">Download</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/sign-up.PNG" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success">Download</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class=" left-box">
+                                                <img src="../design/sign-in.PNG" width="100%"/></div>
+                                            <div class=" right-box m-auto">
+                                                <button class="btn btn-success">Download</button>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div id="implementweek3" class="container tab-pane fade">
                                     <div class="bound">
-                                        <h3>Implement</h3>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                            laboris nisi
-                                            ut aliquip ex ea commodo consequat.</p>
+                                        <iframe src="login.html" width="100%" height="800px"></iframe>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -531,8 +582,7 @@
                                                          width="26"/></a></li>
                                     <li><a href="#"><img src="../images/icons/github-logo.png" height="26"
                                                          width="26"/></a></li>
-                                    <li><a href="#"><img src="../images/youtube.png" height="26"
-                                                         width="26"/></a></li>
+
                                 </ul>
                                 <ul class="mainmenu d-flex justify-content-center">
                                     <li><a href="../index.html">Home</a></li>
