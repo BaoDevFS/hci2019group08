@@ -97,3 +97,79 @@
 #designweek3 .row {
     margin-bottom: 30px;
 }
+/*animation*/
+.run:first-of-type {
+    animation: 7s ease 0s infinite normal none running showup;
+}
+.run {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.text-center:last-of-type .run1 {
+    margin-left: -355px;
+    animation: 7s ease 0s infinite normal none running slidein;
+}
+
+.run {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.run:first-of-type {
+    animation: showup 7s infinite;
+}
+
+.run:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+}
+
+.bradcaump-content:last-of-type .run1 {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+.content {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+.bradcaump__inner .bradcaump-title {
+    font-size: 20px !important;
+}
