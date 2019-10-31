@@ -99,7 +99,7 @@
 }
 /*animation*/
 .run:first-of-type {
-    animation: 7s ease 0s infinite normal none running showup;
+    animation: 2s ease 0s infinite normal none running showup;
 }
 .run {
     display: inline-block;
@@ -108,7 +108,7 @@
 }
 .text-center:last-of-type .run1 {
     margin-left: -355px;
-    animation: 7s ease 0s infinite normal none running slidein;
+    animation: 4s ease 0s infinite normal none running slidein;
 }
 
 .run {
@@ -118,17 +118,17 @@
 }
 
 .run:first-of-type {
-    animation: showup 7s infinite;
+    animation: showup 2s infinite;
 }
 
 .run:last-of-type {
     width:0px;
-    animation: reveal 7s infinite;
+    animation: reveal 5s infinite;
 }
 
 .bradcaump-content:last-of-type .run1 {
     margin-left:-355px;
-    animation: slidein 7s infinite;
+    animation: slidein 5s infinite;
 }
 
 @keyframes showup {
@@ -172,4 +172,10 @@
 }
 .bradcaump__inner .bradcaump-title {
     font-size: 20px !important;
+}
+#contact div{
+    margin-left: 6rem !important;
+}
+.pb--75 {
+    padding-bottom: 0px !important;
 }

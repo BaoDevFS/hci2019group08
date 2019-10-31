@@ -31,7 +31,12 @@
     <link rel="stylesheet" href="css/contact.css">
 
     <link rel="stylesheet" href="js/vendor/animsition/css/animsition.css">
-
+    <!--step-->
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="stepper/css/roboto-font.css">
+    <link rel="stylesheet" href="stepper/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+    <script src="stepper/js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="stepper/css/style.css">
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -41,8 +46,6 @@
 
 <!-- Main wrapper -->
 <div class="wrapper" id="wrapper">
-
-
     <!-- Header -->
     <header id="wn__header" class="oth-page bg--black header__area header__absolute sticky__header">
         <div class="container-fluid">
@@ -76,56 +79,90 @@
             </div>
         </div>
     </header>
-
-
     <section class="wn__team__area mt-5 pt--40 pb--75 bg--gray">
-        <div class="container-contact100 mt-5">
+        <div class="page-content" style="background-image: url('stepper/images/wizard-v3.jpg')">
+            <div class="wizard-v3-content">
+                <div class="wizard-form">
+                    <form class="form-register" action="#" method="post">
+                        <div id="form-total">
+                            <!-- SECTION 1 -->
+                            <h2>
+                                <span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+                            </h2>
+                            <section>
+                                <div class="inner" id="contact">
+                                    <h3>Contact Us:</h3>
+                                    <form class="contact100-form validate-form" >
+                                        <div class="wrap-input100 validate-input " data-validate="Name is required">
+                                            <span class="label-input100">Full Name:</span>
+                                            <input class="input100" type="text" name="name"
+                                                   placeholder="Enter full name" required autofocus>
+                                            <span class="focus-input100"></span>
+                                        </div>
 
-            <div class="wrap-contact100">
-                <div class="contact100-form-title" style="background-image: url(images/bg-01.jpg);">
-				<span class="contact100-form-title-1">
-					Contact Us
-				</span>
+                                        <div class="wrap-input100 validate-input"
+                                             data-validate="Valid email is required: ex@abc.xyz">
+                                            <span class="label-input100">Email:</span>
+                                            <input class="input100" type="text" name="email" required
+                                                   placeholder="Enter email addess">
+                                            <span class="focus-input100"></span>
+                                        </div>
 
-                    <span class="contact100-form-title-2">
-					Feel free to drop us a line below!
-				</span>
-                </div>
+                                        <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                                            <span class="label-input100">Phone:</span>
+                                            <input class="input100" type="text" name="phone" required
+                                                   placeholder="Enter phone number">
+                                            <span class="focus-input100"></span>
+                                        </div>
 
-                <form class="contact100-form validate-form">
-                    <div class="wrap-input100 validate-input" data-validate="Name is required">
-                        <span class="label-input100">Full Name:</span>
-                        <input class="input100" type="text" name="name" placeholder="Enter full name" required autofocus  >
-                        <span class="focus-input100"></span>
-                    </div>
+                                        <div class="wrap-input100 validate-input" data-validate="Message is required">
+                                            <span class="label-input100">Message:</span>
+                                            <textarea class="input100 " name="message" required
+                                                      placeholder="Your Comment..."></textarea>
+                                            <span class="focus-input100"></span>
+                                        </div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <span class="label-input100">Email:</span>
-                        <input class="input100" type="text" name="email" required placeholder="Enter email addess">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Phone is required">
-                        <span class="label-input100">Phone:</span>
-                        <input class="input100" type="text" name="phone" required placeholder="Enter phone number">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Message is required">
-                        <span class="label-input100">Message:</span>
-                        <textarea class="input100 " name="message" required placeholder="Your Comment..."></textarea>
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="container-contact100-form-btn">
-                        <button class="contact100-form-btn">
+                                        <div class="container-contact100-form-btn">
+                                            <button class="contact100-form-btn">
 						<span>
 							Submit
 							<i class="fas fa-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
-                        </button>
-                    </div>
-                </form>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                            <!-- SECTION 2 -->
+                            <h2>
+                                <span class="step-icon"><i class="zmdi zmdi-lock"></i></span>
+                            </h2>
+                            <section>
+                                <div class="inner">
+                                </div>
+                            </section>
+                            <!-- SECTION 3 -->
+                            <h2>
+                                <span class="step-icon"><i class="zmdi zmdi-card"></i></span>
+                            </h2>
+                            <section>
+                                <div class="inner">
+                                </div>
+                            </section>
+                            <!-- SECTION 4 -->
+                            <h2>
+                                <span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+                            </h2>
+                            <section>
+                                <div class="inner">
+                                    <div class="form-row table-responsive">
+
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -143,6 +180,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/active.js"></script>
+<!--step-->
+<script src="stepper/js/jquery-3.3.1.min.js"></script>
+<script src="stepper/js/jquery.steps.js"></script>
+<script src="stepper/js/jquery-ui.min.js"></script>
+<script src="stepper/js/main.js"></script>
 
 </body>
 
