@@ -67,6 +67,7 @@
 .bound {
     text-align: justify;
     line-height: 30px;
+    margin-top: 10px;
 }
 
 .implement-github strong {
@@ -97,24 +98,27 @@
 #designweek3 .row {
     margin-bottom: 30px;
 }
+
 /*animation*/
 .run:first-of-type {
     animation: 2s ease 0s infinite normal none running showup;
 }
+
 .run {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
 }
+
 .text-center:last-of-type .run1 {
     margin-left: -355px;
     animation: 4s ease 0s infinite normal none running slidein;
 }
 
 .run {
-    display:inline-block;
-    overflow:hidden;
-    white-space:nowrap;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .run:first-of-type {
@@ -122,36 +126,66 @@
 }
 
 .run:last-of-type {
-    width:0px;
+    width: 0px;
     animation: reveal 5s infinite;
 }
 
 .bradcaump-content:last-of-type .run1 {
-    margin-left:-355px;
+    margin-left: -355px;
     animation: slidein 5s infinite;
 }
 
 @keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
 }
 
 @keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 355px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
 }
+
 .content {
     position: relative;
     overflow: hidden;
@@ -170,12 +204,32 @@
         background-position: 500%;
     }
 }
+
 .bradcaump__inner .bradcaump-title {
     font-size: 20px !important;
 }
-#contact div{
+
+#contact div {
     margin-left: 6rem !important;
 }
+
 .pb--75 {
     padding-bottom: 0px !important;
+}
+
+#design .bound .row {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    margin-left: 55px;
+}
+
+#design .bound h4 {
+    font-size: 17px;
+    font-family: Tahoma;
+}
+
+#design .bound h5 {
+    font-size: 17px;
+    font-family: Tahoma;
+    margin-left: 55px;
 }
