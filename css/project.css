@@ -21,11 +21,11 @@ tbody{
     font-size: 13px;
 }
 thead, tr, td {
-    border: 2px solid black !important;
+    border: 1px solid black !important;
 }
 
 .table-bordered > thead > tr > th {
-    border: 2px solid black !important;
+    border: 1px solid black !important;
 }
 
 .complete {
@@ -36,8 +36,8 @@ thead, tr, td {
     background-color: #e6e4e4;
 }
 .menu-diary{
-    background: #656060;
-    color: white;
+    background: #bfbdbd;
+    color: black;
     font-size: 15px;
 }
 /*#groupdiary{*/
