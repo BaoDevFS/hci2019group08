@@ -43,6 +43,35 @@
     .group-tabs a {
         color: black;
     }
+
+    .funtion {
+        max-width: 20% !important;
+    }
+
+    .tkg {
+        margin-right: 130px;
+    }
+
+    .btn-success {
+        margin-top: 10px;
+    }
+
+    .tkfm {
+        height: 256px;
+    }
+
+    .container > .row {
+        margin-top: 20px;
+        /*width: 356px !important;*/
+        /*height: 311px !important;*/
+    }
+
+    .lg {
+        margin-top: 10px;
+    }
+    .fm{
+        border: 1px solid lightsteelblue;
+    }
 </style>
 <body>
 <!--[if lte IE 9]>
@@ -303,7 +332,7 @@
                                                         <td>Nguyễn Thành Lợi</td>
                                                         <td class="time">11/9 -> 17/9</td>
                                                         <td class="complete"><i class="fas fa-check"></i>&ensp;<a
-                                                                href=""
+                                                                href="project/admin/pages/user-all.html"
                                                                 target="_blank">Completed</a>
                                                         </td>
                                                     </tr>
@@ -315,7 +344,9 @@
                                                         </td>
                                                         <td>Nguyễn Như Bảo</td>
                                                         <td class="time">11/9 -> 17/9</td>
-                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;Completed
+                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;<a
+                                                                href="project/admin/pages/package-all.html"
+                                                                target="_blank">Completed</a>
                                                         </td>
                                                     </tr>
                                                     <tr class="odd">
@@ -327,8 +358,9 @@
                                                         <td>Nguyễn Thị Giang<br>
                                                         </td>
                                                         <td class="time">11/9 -> 17/9</td>
-                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;Is
-                                                            Completing
+                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;<a
+                                                                href="project/admin/pages/package-booking-all.html"
+                                                                target="_blank">Completed</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -339,8 +371,9 @@
                                                         </td>
                                                         <td>Nguyễn Như Bảo</td>
                                                         <td class="time">11/9 -> 17/9</td>
-                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;Is
-                                                            Completing
+                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;<a
+                                                                href="project/admin/pages/discount.html"
+                                                                target="_blank">Completed</a>
                                                         </td>
                                                     </tr>
 
@@ -352,8 +385,9 @@
                                                         </td>
                                                         <td>Tô Huy Sơn</td>
                                                         <td class="time">11/9 -> 17/9</td>
-                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;Is
-                                                            Completing
+                                                        <td class="complete"><i class="fas fa-check"></i>&ensp;<a
+                                                                href="project/admin/index.html"
+                                                                target="_blank">Completed</a>
                                                         </td>
                                                     </tr>
                                                     </tbody>
@@ -364,68 +398,98 @@
                                     </div>
                                 </div>
                                 <div id="design" class="container tab-pane fade">
-                                    <div class="bound">
-                                        <!--login-->
-                                        <h4> 1. Login</h4>
-                                        <h5>1.1 Thiết kế trên giấy</h5>
-
+                                    <div class="container">
                                         <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/signin.jpg" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success ">Download</button>
+                                            <div class="col-sm-4 funtion ">
+                                                <strong>Chức năng</strong>
+                                                <p class="lg"> 1. Login</p>
+                                                <!--                                            <h5> 2. Sign up</h5>-->
+                                                <!--                                            <h5> 3. ForgotPassword</h5>-->
+                                            </div>
+                                            <div class="col-sm-4 tkg">
+                                                <strong>Thiết kế trên giấy</strong>
+                                                <br>
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="">
+                                                        <img src="design/signin.jpg" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <strong>Thiết kế trên figma</strong>
+                                                <br>
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="tkfm fm">
+                                                        <img src="design/sign-in.PNG" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <h5>1.2 Thiết kế trên figma</h5>
-
                                         <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/sign-in.PNG" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success">Download</button>
+                                            <div class="col-sm-4 funtion ">
+                                                <p> 2. Sign up</p>
+                                                <!--                                            <h5> 3. ForgotPassword</h5>-->
+                                            </div>
+                                            <div class="col-sm-4 tkg">
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="">
+                                                        <img src="design/signup.jpg" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="tkfm fm">
+                                                        <img src="design/sign-up.PNG" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <!--signup-->
-                                        <h4> 2. Sign up</h4>
-                                        <h5>2.1 Thiết kế trên giấy</h5>
-
                                         <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/signup.jpg" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success">Download</button>
+                                            <div class="col-sm-4 funtion ">
+                                                <p> 3. ForgotPassword</p>
                                             </div>
-                                        </div>
-                                        <h5>2.2 Thiết kế trên figma</h5>
-
-                                        <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/sign-up.PNG" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success">Download</button>
+                                            <div class="col-sm-4 tkg">
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="">
+                                                        <img src="design/forgotp.jpg" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <!--forgot-->
-                                        <h4>3. ForgotPassword</h4>
-                                        <h5>3.1 Thiết kế trên giấy</h5>
-
-                                        <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/forgotp.jpg" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success">Download</button>
-                                            </div>
-                                        </div>
-                                        <h5>3.2 Thiết kế trên figma</h5>
-
-                                        <div class="row">
-                                            <div class=" left-box">
-                                                <img src="design/forgot.PNG" width="100%"/></div>
-                                            <div class=" right-box m-auto">
-                                                <button class="btn btn-success">Download</button>
+                                            <div class="col-sm-4">
+                                                <br>
+                                                <div class="row">
+                                                    <br>
+                                                    <div class="fm">
+                                                        <img src="design/forgot.PNG" width="100%"/></div>
+                                                    <div class="m-auto">
+                                                        <button class="btn btn-success ">Download</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div id="implement" class="container tab-pane fade">
                                     <div class="card">
@@ -448,80 +512,80 @@
                                                 <ul class="list-group ">
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         1. Home Page
-                                                        <a href="https://languageeducation.tk" target="_blank">Language
+                                                        <a href="http://bookstore2019.tk" target="_blank">Language
                                                             Education</a>
                                                     </li>
 
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         2. Register
-                                                        <a href="https://languageeducation.tk/register.html"
+                                                        <a href="http://bookstore2019.tk/register.html"
                                                            target="_blank">register</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         3. Login
-                                                        <a href="https://languageeducation.tk/login.html"
+                                                        <a href="http://bookstore2019.tk/login.html"
                                                            target="_blank">login</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         5. Forget Password
-                                                        <a href="https://languageeducation.tk/forget.html"
+                                                        <a href="http://bookstore2019.tk/forget.html"
                                                            target="_blank">forget password</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         6. Vocabulary
-                                                        <a href="https://languageeducation.tk/vocabulary.html"
+                                                        <a href="http://bookstore2019.tk/vocabulary.html"
                                                            target="_blank">vocabulary</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         7. Vocabulary Detail
-                                                        <a href="https://languageeducation.tk/vocab-1.html"
+                                                        <a href="http://bookstore2019.tk/vocab-1.html"
                                                            target="_blank">vocabulary theme</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         8. Reading Level
-                                                        <a href="https://languageeducation.tk/reading-A1.html"
+                                                        <a href="http://bookstore2019.tk/reading-A1.html"
                                                            target="_blank">reading level-1</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         9. Reading Lesson
-                                                        <a href="https://languageeducation.tk/reading.html"
+                                                        <a href="http://bookstore2019.tk/reading.html"
                                                            target="_blank">reading lesson</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         10. Reading Lesson Detail
-                                                        <a href="https://languageeducation.tk/reading_seemore.html"
+                                                        <a href="http://bookstore2019.tk/reading_seemore.html"
                                                            target="_blank">reading lesson
                                                             detail</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         11. Writing Level
-                                                        <a href="https://languageeducation.tk/writing.html"
+                                                        <a href="http://bookstore2019.tk/writing.html"
                                                            target="_blank">writing</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         12. Writing Lesson
-                                                        <a href="https://languageeducation.tk/writing.html"
+                                                        <a href="http://bookstore2019.tk/writing.html"
                                                            target="_blank">writing lesson</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         13. Writing Lesson Detail
-                                                        <a href="https://languageeducation.tk/writing_seemore.html"
+                                                        <a href="http://bookstore2019.tk/writing_seemore.html"
                                                            target="_blank">writing lesson
                                                             detail</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         14. Test
-                                                        <a href="https://languageeducation.tk/tests.html"
+                                                        <a href="http://bookstore2019.tk/tests.html"
                                                            target="_blank">test</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         15. Games
-                                                        <a href="https://languageeducation.tk/games.html"
+                                                        <a href="http://bookstore2019.tk/games.html"
                                                            target="_blank">games</a>
                                                     </li>
                                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                                         16. Account
-                                                        <a href="https://languageeducation.tk/view.html"
+                                                        <a href="http://bookstore2019.tk/view.html"
                                                            target="_blank">account</a>
                                                     </li>
                                                 </ul>
