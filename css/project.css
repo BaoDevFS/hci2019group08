@@ -50,7 +50,7 @@ thead, tr, td {
     margin: auto;
 }
 .section-heading > h2{
-    padding: 3%;
+    padding: 0;
 }
 .section-heading > i{
     padding-bottom: 3%;
