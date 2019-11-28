@@ -8598,7 +8598,9 @@ a.checkout__title {
     height: auto;
     visibility: visible;
 }
-
+.go-to{
+    float: right;
+}
 .slick-slide.slick-center .product__thumb a::after, .product.slick-slide:hover .product__thumb a::after {
     background: #000 none repeat scroll 0 0;
     content: "";
