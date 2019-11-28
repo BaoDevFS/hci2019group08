@@ -2,9 +2,644 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Style Guide</title>
+    <script type="text/javascript" src="themes/barnardlevit/js/fonts.min.js"></script>
+    <script type="text/javascript">
+        var myfont_webfont_test = false;
+        var woffEnabled = true;
+        var customPath = "/themes/barnardlevit";
+
+    </script>
+    <script src="themes/barnardlevit/js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/mycss.css">
+
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/bootstrape8cc.css?m=1421075772"/>
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/typographye8cc.css?m=1421075772"/>
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/layoute8cc.css?m=1421075772"/>
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/main8e16.css?m=1421075920"/>
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/responsivee8cc.css?m=1421075772"/>
+    <link rel="stylesheet" type="text/css" href="themes/barnardlevit/css/forme8cc.css?m=1421075772"/>
+    <!--[if lte IE 7]>
+    <link href="themes/barnardlevit/css/font-awesome-ie7.css" rel="stylesheet" type="text/css"/><![endif]-->
+
 </head>
 <body>
+<header id="wn__header" class="oth-page header__area header__absolute sticky__header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-7 col-lg-2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo/logo.png" alt="logo images">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8 d-none d-lg-block">
+                <nav class="mainmenu__nav">
+                    <ul class="meninmenu d-flex justify-content-start mb-0">
+                        <li class="drop with--one--item"><a href="index.html">Home</a>
+                        </li>
+                        <li class="drop"><a href="about.html">About</a>
+                        </li>
+                        <li class="drop"><a href="project.html" >Project</a>
+                        </li>
+                        <li class="drop"><a href="groupdiary.html">Group Diary</a>
+                        </li>
+                        <li class="drop"><a href="git.html">Technology</a>
+                        </li>
+                        <li class="drop"><a href="result.html" style="color: #e02b27">Result</a>
+                        </li>
+                        <li class="drop"><a href="styleguide.html">Style Guide</a>
+                        </li>
+                        <li class="drop"><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 
+<div class="ht__bradcaump__area bg-image--5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bradcaump__inner text-center">
+                    <h2 class="bradcaump-title">HCI - 08</h2>
+                    <nav class="bradcaump-content">
+                        <a class="breadcrumb_item" href="index.html">Home</a>
+                        <span class="brd-separetor">/</span>
+                        <span class="breadcrumb_item active">Result</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-holder typography"  style="padding: 20px 95px;" role="main">
+
+
+    <article class="sg">
+        <div class="page-header">
+            <h1>Style Guide</h1>
+        </div>
+        <div class="content row">
+
+            <section class="span9">
+                <article>
+                    <p>This guide acts as a technical reference for all the design elements that make up the Barnard
+                        Levit website. It ensures a consistent design and provides the common CSS and HTML used.</p>
+                    <p><small>For enquries regarding the technical design and build contact <a title="Contact GPMD"
+                                                                                               href="http://www.gpmd.co.uk/contact-us/">GPMD</a>.</small>
+                    </p>
+                </article>
+                <article>
+                    <a name="typography"></a>
+                    <h2 class="sg">Typography</h2>
+                    <h1>This is an h1 Heading</h1>
+                    <h2>This is an h2 Heading</h2>
+                    <h3>This is an h3 Heading</h3>
+                    <h4>This is an h4 Heading</h4>
+                    <h5>This is an h5 Heading</h5>
+                    <h6>This is an h6 Heading</h6>
+                    <hr>
+                    <p class="lead">This is some lead body copy. Integer posuere erat a ante venenatis dapibus
+                        posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+                        et.</p>
+                    <p>This is some body copy. Donec id elit non mi porta gravida at eget metus. <a
+                            href="style-guide.html#" title="">This is a hyperlink</a>. Donec ullamcorper nulla non
+                        metus auctor fringilla. <strong>This is some bold text</strong>. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum
+                        faucibus dolor auctor. <em>This is some italicised text</em>. Sed posuere consectetur est at
+                        lobortis.</p>
+                    <div class="row">
+                        <div class="span4">
+                            <ul>
+                                <li>This is an unordered list</li>
+                                <li>Lorem ipsum dolor sit amet
+                                    <ul>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Vestibulum laoreet porttitor sem</li>
+                                    </ul>
+                                </li>
+                                <li>Consectetur adipiscing elit</li>
+                            </ul>
+                        </div>
+                        <div class="span5">
+                            <ol>
+                                <li>This is an ordered list</li>
+                                <li>Cras mattis consectetur purus sit amet fermentum</li>
+                                <li>Praesent commodo cursus magna, vel scelerisque</li>
+                                <li>Nullam quis risus eget urna mollis ornare</li>
+                                <li>Donec id elit non mi porta gravida at eget metus</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <p><small>This is some fine print. Praesent commodo cursus magna, vel scelerisque nisl
+                        consectetur et.</small></p>
+                    <blockquote>
+                        <p>This is a blockquote. Donec id elit non mi porta gravida at eget metus. Aenean lacinia
+                            bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur et.</p>
+                        <small>This is a blockquote source attribution</small>
+                    </blockquote>
+                    <dl class="dl-horizontal">
+                        <dt>Description List</dt>
+                        <dd>This is a horizontal description list.</dd>
+                        <dt>Bibendum Malesuada Euismod</dt>
+                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                        <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                        <dt>Pellentesque Fermentum Mattis</dt>
+                        <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    </dl>
+                </article>
+                <article>
+                    <a name="tables"></a>
+                    <h2 class="sg">Tables</h2>
+                    <table class="table table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Column One</th>
+                            <th>Column Two</th>
+                            <th>Column Three</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Dapibus</td>
+                            <td>Nullam</td>
+                            <td>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Euismod</td>
+                            <td>Vestibulum</td>
+                            <td>Maecenas sed diam eget risus varius blandit sit amet non magna.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Elit</td>
+                            <td>Purus</td>
+                            <td>Nullam id dolor id nibh ultricies vehicula ut id elit.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article>
+                    <a name="forms"></a>
+                    <h2 class="sg">Forms</h2>
+                    <form>
+                        <fieldset>
+                            <legend>Form Legend</legend>
+                            <div class="search-query">
+                                <input class="input-xlarge" type="text" placeholder="Search...">
+                            </div>
+                            <div class="field">
+                                <label>Label for text box</label>
+                                <input class="input-xlarge" type="text" placeholder="Type something...">
+                            </div>
+                            <div class="field">
+                                <input class="input-xlarge required" type="text" placeholder="Type something...">
+                                <label class="required"><i class="icon-warning-sign"></i> This is an error
+                                    message</label>
+                            </div>
+                            <div class="field">
+                                <textarea class="input-xlarge" rows="3"></textarea>
+                            </div>
+                            <div class="field">
+                                <input class="input-xlarge" id="disabledInput" type="text"
+                                       placeholder="Disabled input" disabled>
+                            </div>
+                            <div class="field">
+                                <select>
+                                    <option>Please choose something...</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label class="checkbox">
+                                    <input type="checkbox"> Tick me
+                                </label>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn">Cancel</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </article>
+                <article>
+                    <a name="buttons"></a>
+                    <h2 class="sg">Buttons</h2>
+                    <p class="sg">
+                        <a href="style-guide.html#" class="btn" title="">Default Button</a>
+                        <a href="style-guide.html#" class="btn btn-primary" title="">Primary Button</a>
+                        <a href="style-guide.html#" class="btn btn-inverse" title="">Inverse Button</a>
+                        <a href="style-guide.html#" class="btn disabled" title="">Disabled Button</a>
+                    </p>
+                </article>
+                <article class="clearfix">
+                    <a name="images"></a>
+                    <h2 class="sg">Images</h2>
+                    <div class="captionImage left">
+                        <img class="left" src="themes/barnardlevit/img/sample-pic-1.jpg" alt="Sample Pic 1">
+                        <p class="caption">This is an image caption.</p>
+                    </div>
+                </article>
+                <article>
+                    <a name="video"></a>
+                    <h2 class="sg">Video</h2>
+                    <div class="widget widget-video">
+                        <div class="video-container">
+                            <iframe src="http://www.youtube.com/embed/jwKKbt6KfrI" frameborder="0"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a name="sub-nav-anchor"></a>
+                    <h2 class="sg">Sub-Nav</h2>
+                    <p>The sub-nav accordion can go to five levels deep. In order to support touch devices accordion
+                        sections can be opened and closed using the icons to the right. Clicking on a link takes you
+                        to the linked page.</p>
+                    <div class="row">
+                        <div class="span3">
+                            <nav id="sub-nav" class="sg">
+                                <ul class="accordion">
+                                    <li class="section current">
+                                        <a class="section current" href="style-guide.html#sub-nav-anchor" title="">Link
+                                            1</a><span class="trigger-wrapper"><a href="style-guide.html#"><i
+                                            class="icon-plus"></i></a></span>
+                                        <ul>
+                                            <li class="section">
+                                                <a class="section" href="style-guide.html#sub-nav-anchor" title="">Link
+                                                    1-1</a><span class="trigger-wrapper"><a
+                                                    href="style-guide.html#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="section">
+                                                        <a class="section" href="style-guide.html#sub-nav-anchor"
+                                                           title="">Link 1-1-1</a><span class="trigger-wrapper"><a
+                                                            href="style-guide.html#"><i
+                                                            class="icon-plus"></i></a></span>
+                                                        <ul>
+                                                            <li class="section">
+                                                                <a class="section"
+                                                                   href="style-guide.html#sub-nav-anchor" title="">Link
+                                                                    1-1-1-1</a><span class="trigger-wrapper"><a
+                                                                    href="style-guide.html#"><i
+                                                                    class="icon-plus"></i></a></span>
+                                                                <ul>
+                                                                    <li class="link current"><a class="link current"
+                                                                                                href="style-guide.html#sub-nav-anchor"
+                                                                                                title="">Link
+                                                                        1-1-1-1-1</a></li>
+                                                                    <li class="link"><a class="link"
+                                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                                        title="">Link 1-1-1-1-2</a>
+                                                                    </li>
+                                                                    <li class="link"><a class="link"
+                                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                                        title="">Link 1-1-1-1-3</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="link"><a class="link"
+                                                                                href="style-guide.html#sub-nav-anchor"
+                                                                                title="">Link 1-1-1-2</a></li>
+                                                            <li class="link"><a class="link"
+                                                                                href="style-guide.html#sub-nav-anchor"
+                                                                                title="">Link 1-1-1-3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-1-2</a></li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-1-3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="section">
+                                                <a class="section" href="style-guide.html#sub-nav-anchor" title="">Link
+                                                    1-2</a><span class="trigger-wrapper"><a
+                                                    href="style-guide.html#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-2-1</a></li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-2-2</a></li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-2-3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="section">
+                                                <a class="section" href="style-guide.html#sub-nav-anchor" title="">Link
+                                                    1-3</a><span class="trigger-wrapper"><a
+                                                    href="style-guide.html#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-3-1</a></li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-3-2</a></li>
+                                                    <li class="link"><a class="link"
+                                                                        href="style-guide.html#sub-nav-anchor"
+                                                                        title="">Link 1-3-3</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="section">
+                                        <a class="section" href="style-guide.html#sub-nav-anchor" title="">Link
+                                            2</a><span class="trigger-wrapper"><a href="style-guide.html#"><i
+                                            class="icon-plus"></i></a></span>
+                                        <ul>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 2-1</a></li>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 2-2</a></li>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 2-3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="section">
+                                        <a class="section" href="style-guide.html#sub-nav-anchor" title="">Link
+                                            3</a><span class="trigger-wrapper"><a href="style-guide.html#"><i
+                                            class="icon-plus"></i></a></span>
+                                        <ul>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 3-1</a></li>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 3-2</a></li>
+                                            <li class="link"><a class="link" href="style-guide.html#sub-nav-anchor"
+                                                                title="">Link 3-3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a name="quick-links"></a>
+                    <h2 class="sg">Quick Links</h2>
+                    <div class="widget widget-quick-links">
+                        <div class="widget-title">
+                            <h4>Quick Links</h4>
+                        </div>
+                        <ul class="nav nav-list">
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 1</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 2</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 3</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 4</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 5</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 6</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 7</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 8</a>
+                            </li>
+                            <li><a href="style-guide.html#" title=""><i class="icon-caret-right"></i> Link 9</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <a name="breadcrumbs"></a>
+                    <h2 class="sg">Breadcrumbs</h2>
+                    <ul class="breadcrumb sg">
+                        <li><a href="style-guide.html#" title="">Page 1</a> <i class="icon-angle-right divider"></i>
+                        </li>
+                        <li><a href="style-guide.html#" title="">Page 2</a> <i class="icon-angle-right divider"></i>
+                        </li>
+                        <li><a href="style-guide.html#" title="">Page 3</a> <i class="icon-angle-right divider"></i>
+                        </li>
+                        <li><a href="style-guide.html#" title="">Page 4</a> <i class="icon-angle-right divider"></i>
+                        </li>
+                        <li class="active">Page 5</li>
+                    </ul>
+                </article>
+                <article>
+                    <a name="pagination"></a>
+                    <h2 class="sg">Pagination</h2>
+                    <div class="pagination">
+                        <ul class="PageNumbers">
+                            <li class="prev disabled"><a class="paginate-left disabled"><i
+                                    class="icon-angle-left"></i></a></li>
+                            <li class="active"><a class="disabled">1</a></li>
+                            <li><a href="style-guide.html#" class="">2</a></li>
+                            <li><a href="style-guide.html#" class="">3</a></li>
+                            <li><a href="style-guide.html#" class="">4</a></li>
+                            <li><a href="style-guide.html#" class="">5</a></li>
+                            <li class="next"><a title="View the next page" href="style-guide.html#"
+                                                class="next paginate-right"><i class="icon-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <a name="callouts"></a>
+                    <h2 class="sg">Callouts</h2>
+                    <div class="row">
+                        <ul class="thumbnails">
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <img src="themes/barnardlevit/img/sample-pic-3.jpg" alt="Sample Pic 3">
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Callout 1 Title</a></h4>
+                                        <p>Callout text. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                                            eros.</p>
+                                        <a href="style-guide.html#" class="btn btn-primary" title="">Read More</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <img src="themes/barnardlevit/img/sample-pic-4.jpg" alt="Sample Pic 4">
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Callout 2 Title</a></h4>
+                                        <p>Callout text. Vestibulum id ligula porta felis euismod semper.</p>
+                                        <a href="style-guide.html#" class="btn btn-primary" title="">Read More</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <img src="themes/barnardlevit/img/sample-pic-5.jpg" alt="Sample Pic 5">
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Callout 3 Title</a></h4>
+                                        <p>Callout text. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                                        <a href="style-guide.html#" class="btn btn-primary" title="">Read More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <a name="gallery"></a>
+                    <h2 class="sg">Gallery</h2>
+                    <div class="widget widget-gallery">
+                        <div id="widget-gallery-1" class="carousel carousel-thumbs slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-3.jpg"
+                                       title="We offer offer a comprehensive range of school screening services.">
+                                        <img src="themes/barnardlevit/img/sample-pic-3.jpg">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <p>We offer offer a comprehensive range of school screening services.</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-4.jpg"
+                                       title="Dr. Irvin Borish The &#8220;father of Clinical Optometry&#8221;.">
+                                        <img src="themes/barnardlevit/img/sample-pic-4.jpg">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <p>Dr. Irvin Borish The &#8220;father of Clinical Optometry&#8221;.</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-5.jpg" title="">
+                                        <img src="themes/barnardlevit/img/sample-pic-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-3.jpg" title="">
+                                        <img src="themes/barnardlevit/img/sample-pic-3.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-4.jpg"
+                                       title="Dr. Irvin Borish The &#8220;father of Clinical Optometry&#8221;.">
+                                        <img src="themes/barnardlevit/img/sample-pic-4.jpg">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <p>Dr. Irvin Borish The &#8220;father of Clinical Optometry&#8221;.</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a class="fancybox" href="themes/barnardlevit/img/sample-pic-5.jpg" title="">
+                                        <img src="themes/barnardlevit/img/sample-pic-5.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control left" href="style-guide.html#widget-gallery-1"
+                               data-slide="prev"><i class="icon-caret-left"></i></a>
+                            <a class="carousel-control right" href="style-guide.html#widget-gallery-1"
+                               data-slide="next"><i class="icon-caret-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a name="staff-grid"></a>
+                    <h2 class="sg">Staff Grid</h2>
+                    <h3 class="title-underline">Department Name</h3>
+                    <div class="row">
+                        <ul class="thumbnails">
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <a href="style-guide.html#" title=""><img
+                                            src="themes/barnardlevit/img/staff-pic-placeholder.gif"
+                                            alt="Staff Pic Placeholder"></a>
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Staff Name</a></h4>
+                                        <p>Position</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <a href="style-guide.html#" title=""><img
+                                            src="themes/barnardlevit/img/staff-pic-placeholder.gif"
+                                            alt="Staff Pic Placeholder"></a>
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Staff Name</a></h4>
+                                        <p>Position</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <a href="style-guide.html#" title=""><img
+                                            src="themes/barnardlevit/img/staff-pic-placeholder.gif"
+                                            alt="Staff Pic Placeholder"></a>
+                                    <div class="caption">
+                                        <h4><a href="style-guide.html#" title="">Staff Name</a></h4>
+                                        <p>Position</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+                            <aside class="span3">
+                                <nav id="sg-nav" data-spy="affix" data-offset-top="180">
+                                    <div class="widget-title">
+                                        <h4>Style Guide Elements</h4>
+                                    </div>
+                                    <ul class="nav nav-list">
+                                        <li><a href="#typography"><i class="icon-caret-right"></i> Typography</a>
+                                        </li>
+                                        <li><a href="#tables"><i class="icon-caret-right"></i> Tables</a></li>
+                                        <li><a href="#forms"><i class="icon-caret-right"></i> Forms</a></li>
+                                        <li><a href="#buttons"><i class="icon-caret-right"></i> Buttons</a></li>
+                                        <li><a href="#images"><i class="icon-caret-right"></i> Images</a></li>
+                                        <li><a href="#video"><i class="icon-caret-right"></i> Video</a></li>
+                                        <li><a href="#sub-nav-anchor" title=""><i class="icon-caret-right"></i>
+                                            Sub-Nav</a></li>
+                                        <li><a href="#quick-links"><i class="icon-caret-right"></i> Quick Links</a>
+                                        </li>
+                                        <li><a href="#breadcrumbs"><i class="icon-caret-right"></i> Breadcrumbs</a>
+                                        </li>
+                                        <li><a href="#pagination"><i class="icon-caret-right"></i> Pagination</a>
+                                        </li>
+                                        <li><a href="#callouts"><i class="icon-caret-right"></i> Callouts</a></li>
+                                        <li><a href="#gallery"><i class="icon-caret-right"></i> Gallery</a></li>
+                                        <li><a href="#staff-grid"><i class="icon-caret-right"></i> Staff Grid</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </aside>
+        </div>
+    </article>
+
+</div>
+<script type="text/javascript" src="themes/barnardlevit/js/vendor/jquery-1.8.3.mine8cc.js?m=1421075772"></script>
+<script type="text/javascript" src="themes/barnardlevit/bootstrap/js/bootstrap.mine8cc.js?m=1421075772"></script>
+<script type="text/javascript" src="themes/barnardlevit/js/plugins.mine8cc.js?m=1421075772"></script>
+<script type="text/javascript" src="themes/barnardlevit/js/main.mine8cc.js?m=1421075772"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39455954-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
 </body>
 </html>
