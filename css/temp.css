@@ -1,0 +1,18 @@
+.header-section {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 111;
+}
+
+.site-navbar.navbar-dark .navbar-nav .nav-link {
+    padding-right: 10px !important;
+}
+
+.hs-item {
+    max-height: 760px;
+    height: 660px;
+}
+.site-navbar {
+    padding: 2px 70px;
+}
