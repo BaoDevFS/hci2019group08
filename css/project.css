@@ -1,0 +1,155 @@
+.pb--75 {
+    padding-bottom: 0px !important;
+}
+.group-tabs{
+    max-width: 100%;
+    margin: auto;
+}
+a:hover {
+    color: #da1426 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #c3c3c3 !important;
+    border-color: #ddd #ddd #fff;
+}
+.table-bordered {
+    font-size: 17px;
+    text-align: initial;
+    /*font: caption;*/
+}
+tbody{
+    font-size: 13px;
+}
+thead, tr, td {
+    border: 1px solid black !important;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid black !important;
+}
+
+.complete {
+    background: #8feaf9;
+}
+
+.odd {
+    background-color: #e6e4e4;
+}
+.menu-diary{
+    background: #bfbdbd;
+    color: black;
+    font-size: 15px;
+}
+/*#groupdiary{*/
+/*    padding:3%;*/
+/*}*/
+.rowdiary{
+    margin:0;
+}
+.col-diary{
+    margin: auto;
+}
+.section-heading > h2{
+    padding: 0;
+}
+.section-heading > i{
+    padding-bottom: 3%;
+}
+.tabweek{
+    padding-right: 1% !important;
+    font-size: 18px;
+}
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+#products {
+    background: #f9f9f9;
+}
+
+.group-tabs a {
+    color: black;
+}
+
+.funtion {
+    max-width: 20% !important
+}
+
+.tkg {
+    margin-right: 130px;
+}
+
+.btn-success {
+    margin-top: 10px;
+}
+
+.tkfm {
+    height: 256px;
+}
+
+.container > .row {
+    margin-top: 20px;
+    /*width: 356px !important;*/
+    /*height: 311px !important;*/
+}
+
+.lg {
+    margin-top: 10px;
+}
+
+.fm {
+    border: 1px solid lightsteelblue;
+}
+
+.inner1 {
+    border: none;
+    background: #ffa000;
+    color: white !important;
+}
+
+.container .btn1, .dow1 {
+    font-size: 14px !important;
+}
+
+.dow1 {
+    height: 50px;
+    background-color: #ffa000;
+    border: none;
+    color: white !important;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 2.25rem;
+
+}
+
+.f1 {
+    background-color: #ffa000 !important;
+}
+
+.html1 {
+    color: #FFFFFF;
+}
+
+.fig1:hover {
+    background: #ffa000 !important;
+    outline: none;
+}
+
+.inner1:hover {
+    background: #ffa000;
+    outline: none;
+
+}
+.dow1:hover{
+    color: grey;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    outline: none;
+}

@@ -2,12 +2,10 @@
     position: fixed;
     width: 100%;
     left: 0;
+    top: 0;
     z-index: 111;
 }
 
-.site-navbar.navbar-dark .navbar-nav .nav-link {
-    padding-right: 10px !important;
-}
 
 .hs-item {
     max-height: 760px;
@@ -15,4 +13,9 @@
 }
 .site-navbar {
     padding: 2px 70px;
+}
+
+
+.nav-link{
+    color: black;
 }
