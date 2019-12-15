@@ -741,6 +741,7 @@ overflow:hidden;
 
 .footer-widget.fw-about img {
 	margin-bottom: 50px;
+	border-radius: 15px;
 }
 
 .footer-widget.fw-about p {
