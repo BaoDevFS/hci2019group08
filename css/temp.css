@@ -19,3 +19,21 @@
 .nav-link{
     color: black;
 }
+
+#groupdiary table  thead tr th{
+   font-size: 14px !important;
+}
+
+#groupdiary tbody tr td ul{
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+#groupdiary tbody tr td {
+    vertical-align: middle;
+    font-size: 13px;
+}
+.img{
+    background-position: center center !important;
+    background-size: cover;
+}
