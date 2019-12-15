@@ -1,27 +1,32 @@
 .pb--75 {
     padding-bottom: 0px !important;
 }
-.group-tabs{
+
+.group-tabs {
     max-width: 100%;
     margin: auto;
 }
+
 a:hover {
     color: #da1426 !important;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #495057;
-    background-color: #c3c3c3 !important;
+    color: black;
+    background-color: #f7f7f7 !important;
     border-color: #ddd #ddd #fff;
 }
+
 .table-bordered {
-    font-size: 17px;
+    /*font-size: 17px;*/
     text-align: initial;
     /*font: caption;*/
 }
-tbody{
+
+tbody {
     font-size: 13px;
 }
+
 thead, tr, td {
     border: 1px solid black !important;
 }
@@ -37,30 +42,34 @@ thead, tr, td {
 .odd {
     background-color: #e6e4e4;
 }
-.menu-diary{
-    background: #bfbdbd;
+
+.menu-diary {
+    background: #f7f7f7;
     color: black;
-    font-size: 15px;
+    font-size: 14px;
 }
-/*#groupdiary{*/
-/*    padding:3%;*/
-/*}*/
-.rowdiary{
-    margin:0;
+
+.rowdiary {
+    margin: 0;
 }
-.col-diary{
+
+.col-diary {
     margin: auto;
 }
-.section-heading > h2{
+
+.section-heading > h2 {
     padding: 0;
 }
-.section-heading > i{
+
+.section-heading > i {
     padding-bottom: 3%;
 }
-.tabweek{
+
+.tabweek {
     padding-right: 1% !important;
-    font-size: 18px;
+    font-size: 14px;
 }
+
 .caption {
     display: flex;
     justify-content: center;
@@ -82,19 +91,7 @@ thead, tr, td {
     margin-right: 130px;
 }
 
-.btn-success {
-    margin-top: 10px;
-}
 
-.tkfm {
-    height: 256px;
-}
-
-.container > .row {
-    margin-top: 20px;
-    /*width: 356px !important;*/
-    /*height: 311px !important;*/
-}
 
 .lg {
     margin-top: 10px;
@@ -111,7 +108,7 @@ thead, tr, td {
 }
 
 .container .btn1, .dow1 {
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 .dow1 {
@@ -146,10 +143,59 @@ thead, tr, td {
     outline: none;
 
 }
-.dow1:hover{
+
+.dow1:hover {
     color: grey;
 }
+
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
     outline: none;
+}
+
+.btn-link {
+    color: black;
+}
+
+.btn-link:hover {
+    color: #da1426;
+}
+
+.menu-diary th {
+    font-weight: normal;
+}
+
+#design strong {
+    font-size: 14px;
+}
+
+#design img {
+    width: 100%;
+    min-height: 60vh;
+    max-height: 60.001vh;
+}
+
+.downall {
+    height: 88px;
+    overflow: hidden;
+}
+
+#implement {
+    font-size: 14px;
+}
+
+.font-end {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.font-end .card-body {
+    padding: 5px 5px;
+
+}
+.card-header .btn-success a:hover{
+    color: white!important;
+}
+.card-header .btn-link:hover{
+    text-decoration: none!important;
 }
