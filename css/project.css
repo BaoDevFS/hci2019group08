@@ -30,6 +30,9 @@ tbody {
 thead, tr, td {
     border: 1px solid black !important;
 }
+#implement thead, #implement tr, #implement td {
+    border: 1px solid #d4d3d3 !important;
+}
 
 .table-bordered > thead > tr > th {
     border: 1px solid black !important;
