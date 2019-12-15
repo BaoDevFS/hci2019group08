@@ -1,0 +1,36 @@
+.circle-red{
+    background-color:#ff006c;
+    height: 162px;
+    width: 162px;
+}
+.circle-white{
+    background-color:#fff;
+    height: 162px;
+    width: 162px;
+    border: 1px solid black;
+}
+.circle-black{
+    background-color:#000000;
+    height: 162px;
+    width: 162px;
+}
+.circle-grey{
+    background-color:#f7f7f7;
+    height: 162px;
+    width: 162px;
+}
+.circle-success{
+    background-color: #28a745;
+    height: 162px;
+    width: 162px;
+}
+.circle-orange{
+    background-color:#ffa000;
+    height: 162px;
+    width: 162px;
+}
+.circle-blue{
+    background-color:#007bff;
+    height: 162px;
+    width: 162px;
+}

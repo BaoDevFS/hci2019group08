@@ -534,13 +534,29 @@ pre code {
         max-width: 960px
     }
 }
+<<<<<<< HEAD
+@media (max-width: 1000px) {
+    body{
+        padding-top: 2.5rem !important;
+    }
+}
+@media (max-width: 500px) {
+    body{
+        padding-top: 1rem !important;
+    }
+}
+=======
 
+>>>>>>> 83d59a265971172bf1c8310743c812b7c5a51acf
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px
     }
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 83d59a265971172bf1c8310743c812b7c5a51acf
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -9467,6 +9483,10 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 @media (min-width: 1200px) {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 83d59a265971172bf1c8310743c812b7c5a51acf
     .m-xl-0 {
         margin: 0 !important
     }
