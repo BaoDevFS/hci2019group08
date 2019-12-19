@@ -11,23 +11,25 @@
     max-height: 760px;
     height: 660px;
 }
+
 .site-navbar {
     padding: 2px 70px;
 }
 
 
-.nav-link{
+.nav-link {
     color: black;
 }
-#groupdiary table{
-}
-#groupdiary table  thead tr th{
-   font-size: 14px !important;
-    background-color: #bfbdbd;
+
+/*#groupdiary table{*/
+/*}*/
+#groupdiary table thead tr th {
+    font-size: 14px !important;
+    background-color: #f7f7f7;
     border: 1px solid black;
 }
 
-#groupdiary tbody tr td ul{
+#groupdiary tbody tr td ul {
     padding-left: 10px;
     font-size: 13px;
 }
@@ -37,7 +39,8 @@
     font-size: 13px;
     border: 1px solid black;
 }
-.img{
+
+.img {
     background-position: center center !important;
     background-size: cover;
 }
