@@ -18,17 +18,16 @@ a:hover {
 }
 
 .table-bordered {
-    /*font-size: 17px;*/
     text-align: initial;
-    /*font: caption;*/
+    font: caption;
 }
 
 tbody {
     font-size: 13px;
 }
 
-#implement table td{
-border-top: none;
+#implement table td {
+    border-top: none;
 }
 
 .table-bordered > thead > tr > th {
@@ -90,7 +89,6 @@ border-top: none;
 .tkg {
     margin-right: 130px;
 }
-
 
 
 .lg {
@@ -193,9 +191,11 @@ border-top: none;
     padding: 5px 5px;
 
 }
-.card-header .btn-success a:hover{
-    color: white!important;
+
+.card-header .btn-success a:hover {
+    color: white !important;
 }
-.card-header .btn-link:hover{
-    text-decoration: none!important;
+
+.card-header .btn-link:hover {
+    text-decoration: none !important;
 }
