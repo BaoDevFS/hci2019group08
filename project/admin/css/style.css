@@ -278,7 +278,7 @@ a:hover {
 .sb2-2 {
     float: left;
     width: 80%;
-    padding: 40px;
+    padding: 20px;
     margin-left: 20%;
     background: #e8edf2;
 }
@@ -573,8 +573,7 @@ a:hover {
 .db-icon-ri p {} .bor {
     border: 1px solid #cccccc;
     padding: 25px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    /*margin-bottom: 25px;*/
 }
 .bor h3 {
     margin-top: 10px;
@@ -691,7 +690,7 @@ a:hover {
 /*-------------------------------------------------------*/
 
 .inn-title {
-    padding: 25px 25px;
+    padding: 12px 25px;
     background: #ffffff;
     border-bottom: 1px solid #e8edf2;
     border-radius: 4px;
@@ -769,9 +768,6 @@ a:hover {
 /* 8. TAB AND SEARCH
 /*-------------------------------------------------------*/
 
-.tab-inn {
-    padding: 25px;
-}
 .tab-posi {
     position: relative;
     overflow: hidden;
